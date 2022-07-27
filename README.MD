@@ -17,7 +17,7 @@ Per eseguire il programma è necessario creare un file .env ed inizializzare al 
 - PATH_COMPRESSED = percorso della cartella dei file compressi <br>
 - PATH_EXECUTABLES = percorso della cartella dei file eseguibili <br>
 - PATH_NOT_RECOGNIZED = percorso della cartella dei file non riconosciuti <br>
-Se non hai voglai di scrvere ecco il [link] per scaricare un file .env preconfigurato.
+Se non hai voglai di scrvere ecco il [link](https://github.com/FrancescoRomeo02/FIle-manager-automatization/blob/main/demo.env)per scaricare un file .env preconfigurato.
 ## Esecuzione automatica
 Per eseguire automaticamente il programma è necessario creare un link al file .vbs all'interno della cartella: <br>
 C:\Users\'NOME UTENTE'\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
