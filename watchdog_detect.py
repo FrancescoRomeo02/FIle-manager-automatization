@@ -31,10 +31,7 @@ class Handler(FileSystemEventHandler):
 
     @staticmethod
     def on_any_event(event):
-        if event.is_directory:
-            return None
-
-        elif event.event_type == 'created':
+        if event.event_type == 'created':
             # Take any action here when a file is created.
             files_detection()
 

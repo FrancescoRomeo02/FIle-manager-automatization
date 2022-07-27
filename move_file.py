@@ -1,9 +1,10 @@
 from datetime import datetime
-from os import walk, rename
-import shutil
 import os
 from dotenv import load_dotenv
+import shutil
 
+
+load_dotenv()
 # path of the directory to be scanned
 path = os.environ['PATH_TO_SCAN']
 
@@ -26,26 +27,42 @@ suffixes_executables = ('.exe', '.msi')
 
 
 def move_file(file_path, destination_path):
+    """_summary_
+
+    Args:
+        file_path (str): path of the file to be moved
+        destination_path (str): path of the destination directory
+    """
     shutil.move(file_path, destination_path)
 
 # function to rename the file
 
 
 def renamefile(filename):
+    """_summary_
+
+    Args:
+        filename (str): old nome of the file
+
+    Returns:
+        str: new neme of the file obtained by old name and the current date 
+    """
+
     # rename the file with the current date ( prevent duplicate )
     now = datetime.now()
     dt_string = now.strftime("%d/%m/%Y").replace('/', '-')
     filenametmp = filename.split('.')
     new_filename = filenametmp[0] + '_' + \
         dt_string + '.' + filenametmp[1]
-    rename(filename, new_filename)
+    os.rename(filename, new_filename)
     return new_filename
 
 # function to scan the directory and move the files to the right directory
 
 
 def files_detection():
-    for (dirpath, dirnames, filenames) in walk(path):
+
+    for (dirpath, dirnames, filenames) in os.walk(path):
         for filename in filenames:
             # make file path ( dirpath + filename + date)
             file_path = (dirpath + '/' + filename)
