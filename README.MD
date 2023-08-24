@@ -26,8 +26,8 @@ To execute the program, create a `.env` file and initialize the variables as fol
 If you prefer not to write it manually, you can download a preconfigured `.env` file from this [link](https://github.com/FrancescoRomeo02/File-manager-automatization/blob/main/demo.env).
 
 ### Examples
-- `PATH_TO_SCAN = "/Users/nome/Downloads"`
-- `PATH_DOCUMENTS = "/Users/nome/Documents"`
+- `PATH_TO_SCAN = "/Users/name/Downloads"`
+- `PATH_DOCUMENTS = "/Users/name/Documents"`
 
 ## Automatic Execution
 
