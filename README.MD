@@ -24,7 +24,7 @@ To execute the program, create a `.env` file and initialize the variables as fol
 - `PATH_NOT_RECOGNIZED`: Path to the unrecognized files folder <br>
   If you prefer not to write it manually, you can download a preconfigured `.env` file from this [link](https://github.com/FrancescoRomeo02/File-manager-automatization/blob/main/demo.env).
 
-### Example
+### Examples
 - `PATH_TO_SCAN = "/Users/nome/Downloads"`
 - `PATH_DOCUMENTS = "/Users/nome/Documents"`
 
@@ -32,3 +32,17 @@ To execute the program, create a `.env` file and initialize the variables as fol
 
 For automatic execution, create a link to the `.vbs` file within the folder: <br>
 `C:\Users\'USER NAME'\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+
+# What I learned
+
+- **File Handling**: Gained hands-on experience in manipulating files using Python, utilizing functions to read, write, and move files.
+- **Path Manipulation**: Acquired knowledge of constructing and managing file paths, ensuring cross-platform compatibility with methods like `os.path.join()`.
+- **Directory Interaction**: Explored directory operations, such as creating, deleting, and navigating directories, using functions from the `os` module.
+- **Error Handling**: Developed an understanding of handling potential errors, enhancing the script's robustness and reliability.
+- **Operating System Interaction**: Deepened comprehension of Python's interaction with the underlying operating system for effective file and folder management.
+- **Documentation**: Creating clear and concise documentation, such as this README file, helps users understand the purpose and usage of the script.
+
+# Contact Me
+Feel free to get in touch via:
+- 📧 Email: romeo.francesco.2002@gmail.com
+- 💼 LinkedIn: [Francesco Romeo](https://www.linkedin.com/in/FrancescoRomeo02)
