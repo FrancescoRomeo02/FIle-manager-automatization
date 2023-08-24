@@ -22,7 +22,8 @@ To execute the program, create a `.env` file and initialize the variables as fol
 - `PATH_COMPRESSED`: Path to the compressed files folder <br>
 - `PATH_EXECUTABLES`: Path to the executables folder <br>
 - `PATH_NOT_RECOGNIZED`: Path to the unrecognized files folder <br>
-  If you prefer not to write it manually, you can download a preconfigured `.env` file from this [link](https://github.com/FrancescoRomeo02/File-manager-automatization/blob/main/demo.env).
+
+If you prefer not to write it manually, you can download a preconfigured `.env` file from this [link](https://github.com/FrancescoRomeo02/File-manager-automatization/blob/main/demo.env).
 
 ### Examples
 - `PATH_TO_SCAN = "/Users/nome/Downloads"`
