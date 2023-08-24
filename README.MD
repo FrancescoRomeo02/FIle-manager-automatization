@@ -27,6 +27,7 @@ To execute the program, create a `.env` file and initialize the variables as fol
 ### Example
 - `PATH_TO_SCAN = "/Users/nome/Downloads"`
 - `PATH_DOCUMENTS = "/Users/nome/Documents"`
+- `PATH_TO_SCAN`: Path to be scanned <br>
 
 ## Automatic Execution
 
