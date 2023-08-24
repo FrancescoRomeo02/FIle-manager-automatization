@@ -28,13 +28,11 @@ class Watcher:
 
 
 class Handler(FileSystemEventHandler):
-
     @staticmethod
     def on_any_event(event):
         if event.event_type == 'created':
             # Take any action here when a file is created.
             files_detection()
-
 
 if __name__ == '__main__':
     w = Watcher()

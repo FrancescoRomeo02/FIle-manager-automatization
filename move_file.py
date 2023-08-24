@@ -59,7 +59,6 @@ def renamefile(filename):
 
 # function to scan the directory and move the files to the right directory
 
-
 def files_detection():
 
     for (dirpath, dirnames, filenames) in os.walk(path):
